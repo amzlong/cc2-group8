@@ -1,0 +1,88 @@
+:root {
+  max-width: 1050px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 50px;
+  max-width: 1000px;
+  background-color: #545454;
+  padding: 5px;
+}
+
+.flex {
+  flex: 1;
+}
+
+.flex:first-child {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.flex:last-child {
+  text-align: justify;
+  margin-right: 20px;
+}
+
+#quote {
+  height: 75px;
+  margin-left: 100px;
+  padding: 5px;
+  padding-bottom: 20px
+}
+
+hr {
+  width: 80%;
+}
+
+#characterLinks {
+  width: 774px;
+  border: 5px solid #545454;
+  margin: auto;
+}
+
+#characterLinks a {
+  color: white;
+}
+
+#characterInfo {
+  margin: auto;
+  width: 774px;
+}
+
+/* Navigator bar */
+
+.navWrapper {
+  display: float;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100px;
+}
+
+.navWrapper .navItem {
+  background-color: var(--clr);
+  width: 260px;
+  cursor: pointer;
+  filter: brightness(.95) grayscale(.5);
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.navWrapper .navItem span {
+  display: inline-block;
+}

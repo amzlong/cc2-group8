@@ -1,0 +1,16 @@
+body {
+    background: #333;
+    justify-content: center;
+}
+
+/* Font size and family */
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+
+p, span {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
