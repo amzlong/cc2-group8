@@ -22,7 +22,7 @@ window.onload = (event) => {
         ).join('');
     }
     */
-=======
+	
   let isSpinning = false;
 
   // function def
@@ -89,7 +89,6 @@ window.onload = (event) => {
     /* Removing function call in favor of HTML directly.
     loadNavBar();
     */
-=======
   // prepare the navbar
   loadNavBar();
 
