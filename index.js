@@ -10,6 +10,9 @@ window.onload = (event) => {
         numItem = wheelItems.length;
 
     // function def
+    /*Scott Liu Comment: Great that the navbar is defined and generated using arrays and mapping,
+                         we can reduce the scope as we know there will only be 4 pages.
+    
     let loadNavBar = function() {
         let navItemList = ["Home"].concat(gameList);
         let navUrlList = ["index.html"].concat(urlList);
@@ -18,6 +21,7 @@ window.onload = (event) => {
             `<div class="navItem" style="--clr:${navColorList[idx]};" onclick="window.location.href='${navUrlList[idx]}'"><span>${item}</span></div>`
         ).join('');
     }
+    */
 
     let resetItemFilter = function() {
         document.querySelectorAll('.spinWheel .spinItem').forEach(item => item.style.filter="brightness(.95) grayscale(.5)");
@@ -60,7 +64,9 @@ window.onload = (event) => {
     }
 
     // prepare the navbar
+    /* Removing function call in favor of HTML directly.
     loadNavBar();
+    */
 
     // prepare the spin wheel
     document.querySelector('.spinBtn').onclick = spinWheel;
